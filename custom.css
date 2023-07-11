@@ -1,7 +1,24 @@
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .quickbio {
     padding-top: 30px;
 }
+
+.card-img {
+    height: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+.card-link {
+    text-decoration: none; /* Remove underline */
+    color: black;
+}
+  
