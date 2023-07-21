@@ -18,7 +18,31 @@
 }
 
 .card-link {
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     color: black;
 }
+
+.content-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 95%; 
+    margin: 30px auto; 
+    height: 60%
+  }
+  
+ 
+  .display-6 {
+    font-size: 2.5rem;
+  }
+  
+  .lead {
+    font-size: .9rem; 
+  }
+
+  .content-box p.tech-stack {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
   
